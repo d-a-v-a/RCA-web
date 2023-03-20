@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RCA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    Введите два простых числа p и q
+    <div class="divInputPAndQ">
+      <input id="inpP" type="text">
+      <input id="inpQ" type="text">
+    </div>
+
+    Введите сообщение для шифровки
+    <textarea id="inpMassage" type="text"> </textarea>
+
+    <button id="btn">Зашифровать</button>
+    <div id="answerBlock">
+      Значение e =
+      <span class="e span"></span>
+      Значение d =
+      <span class="d span"></span>
+      Значение n =
+      <span class="n span"></span>
+
+      <br>
+      Зашифрованное сообщение:
+      <span id="answerMassage" class="answerMassage"></span>
+    </div>
+
+
+
+
+    Введите секретный ключ d и n
+    <div class="divInputDAndN">
+      <input id="inpD" type="text">
+      <input id="inpN" type="text">
+    </div>
+
+    Введите сообщение для расшифровки
+    <textarea id="inpEncryption" type="text"> </textarea>
+
+    <button id="btnDec">Расшифровать</button>
+    <div id="decodingBlock">
+      Расшифровка:
+      <span id="decodingMassage" class="decodingMassage"></span>
+    </div>
+  </div>
+
+  <script src="RCA.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.container * {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.divInputPAndQ, .divInputDAndN {
+    display: flex;
+}
+
+
+
+#inpP, #inpD {
+    margin-right: 10px;
+}
+
+.span {
+    display: inline-block;
+    color: red;
+}
+
+.e, .d {
+    margin-right: 10px;
+}
+
+.answerMassage {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+#inpMassage, #inpEncryption {
+    width: 75%;
+    height: 100px;
+}
